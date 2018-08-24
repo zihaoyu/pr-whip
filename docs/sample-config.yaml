@@ -1,0 +1,14 @@
+rules:
+  - name: Mon-Fri
+    schedules:
+      - Monday,Wednesday,Friday 10:00
+      - Tuesday,Thursday 14:00
+    repos:
+      - myorg/myrepo1
+      - myorg/myrepo2
+    channels:
+      - "#team-channel"
+      - "#oncall-channel"
+    ignore:
+      youngerThan: "1h"
+      olderThan: "120h"
