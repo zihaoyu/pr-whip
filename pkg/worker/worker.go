@@ -17,7 +17,7 @@ import (
 
 const (
 	slackMessageUsername = "PR Whip"
-	slackMessageIconURL  = "http://getdrawings.com/image/whip-drawing-60.png"
+	slackMessageIconURL  = "https://github.com/zihaoyu/pr-whip/raw/master/docs/whip.png"
 	slackMessageText     = "Some pull requests are open. Please review."
 )
 
